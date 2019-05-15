@@ -23,7 +23,7 @@ source RunEnv/bin/activate
 pip install -r requirements.txt
 
 # add directories to python path with python scripts
-export PYTHONPATH="${PYTHONPATH}:$(pwd)/src:$(pwd)/utils"
+export PYTHONPATH="${PYTHONPATH}:$(pwd)/src:$(pwd)/src/utils"
 echo "########################################"
 echo "#         Setup was succesfull!        #"
 echo "########################################"
